@@ -17,7 +17,7 @@ public class Date { // potrzebuję dnia, miesiąca, roku
 
     // metody
 
-    public String getinfo(){ return year+"/"+month+"/"+day; }
+    public String getInfo(){ return year+"/"+month+"/"+day; }
     public void printDate(){ // metoda to kod zamknięty w nawiasach klamrowych który ma nazwę, parametry (nieobowiązkowe)
         // oraz typ zwracany
         // jest dostępna z każdego miejsca - 'public'
