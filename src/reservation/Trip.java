@@ -10,7 +10,7 @@ public class Trip {
         this.destination = destination;
     }
     public String getInfo(){
-        return "Wycieczka zaczyna się "+start.getInfo()+" a kończy"+end.getInfo()+", miejsce docelowe to"+destination+"\n";
+        return "rozpoczęcie "+start.getInfo()+", zakończenie "+end.getInfo()+", miejsce docelowe "+destination+"\n";
 
     }
 }
