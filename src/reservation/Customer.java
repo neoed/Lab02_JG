@@ -15,6 +15,6 @@ public Customer(String name){
         this.trip = trip;
     }
     public String getInfo(){
-        return "Klient: "+name+"adres: "+address+"wycieczka: "+trip+"\n"
+        return "Klient: "+name+"adres: "+address+"wycieczka: "+trip.getInfo()+"\n";
     }
 }
